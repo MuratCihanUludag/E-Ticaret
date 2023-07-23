@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-function Sidebar() {
+function Sidebar({settings}) {
   return (
     <aside className='sidebar '>
         <div className='sidebar-up'>
-            <img className='logo' src="./public/img/Logo.png" alt="Logo" />
+            <img className='logo' src='./public/img/Logo.png' alt="Logo" />
             <p>Kitaplar, bizim için gizli bir bahçedir.</p>
         </div>
         <ul className='sidebar-content'>
@@ -30,13 +30,13 @@ function Sidebar() {
             </li>
             <li>
                 <NavLink>
-                    <i class="uil uil-share-alt"/>
+                    <i className="uil uil-share-alt"/>
                     <span>Yayıncalar</span>
                 </NavLink>
             </li>
             <li>
                 <NavLink>
-                    <i class="uil uil-percentage"/>
+                    <i className="uil uil-percentage"/>
                     <span>İndirimler</span>
                 </NavLink>
             </li>
