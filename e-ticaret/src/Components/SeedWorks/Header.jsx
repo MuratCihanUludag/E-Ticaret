@@ -6,7 +6,7 @@ function Header() {
     <nav className='navbar'>
         <div className='container'>
             <div className='nav-left'>
-                <img className='logo' src="./public/img/Logo.png" alt="Logo" />
+                <i className="uil uil-bars"/>
                 <span>Kitapların Gizli Bahçesi</span>
             </div>
                 <ul className='nav-right'>

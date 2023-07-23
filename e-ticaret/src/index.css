@@ -21,3 +21,15 @@ ul{
 a{
   text-decoration: none;
 }
+.uil.uil-bars{
+  padding-right: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.uil.uil-bars:hover{
+  color: var(--main-color);
+  filter: drop-shadow(5px 5px 4px #333333);
+
+
+}

@@ -6,13 +6,15 @@ import Sidebar from "./Sidebar";
 
 function Container() {
   return (
-    <div>
+    <div className="container ">
       <Header />
-      <Sidebar/>
       <section className="section" >
+      <Sidebar/>
+      <div className="section-content">
         <Routes>
-          <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home />} />
         </Routes>
+      </div>
       </section>
     </div>
   );
