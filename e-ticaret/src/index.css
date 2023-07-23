@@ -1,6 +1,23 @@
-:root{
-  --main-color :#c8ebd1;
-} 
-body{
-background-color: var(--main-color);
+@import url("https://use.typekit.net/uaw8dlx.css");
+:root {
+  --main-color: #c8ebd1;
+  --nav-body-color:#a9c2c2;
+  --nav-text-color: #333333;
+  --Poppins: "poppins", sans-serif
+}
+body {
+  background-color: var(--main-color);
+}
+nav {
+  color: var(--nav-text-color);
+  font-family: var(--Poppins);
+  font-style: italic;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
 }
